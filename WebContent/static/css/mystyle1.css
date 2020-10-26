@@ -1,0 +1,44 @@
+.Header{
+    border: 1px solid rgba(8, 8, 8, 0.493);
+    border-radius: 15px;
+    height: 60px;
+    background-color: rgb(119, 148, 120);
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgb(27, 26, 26);
+    width: 100%;
+    text-align: center;
+   
+}
+body{
+    background-color: darkslategrey;
+}
+
+.pbook{
+    padding-top:1,5cm; 
+    padding-left:1.8cm ;
+    color: rgb(231, 108, 129);
+}
+
+.BODY{
+    margin-top: 40px;
+	display: flex;
+    padding-left:1px ;
+    margin-left: 3.5cm;
+}
+
+.images{
+	/* margin-top:80px; */
+	width:80% ;
+	height: 80%;
+	border-radius: 10px;
+	position: static;
+	/* transform: scale(1,1); */
+
+	
+}
+/* div img:hover{
+	transform: scale(1.2);
+} */
+div img{
+	transition: 1s;
+}
