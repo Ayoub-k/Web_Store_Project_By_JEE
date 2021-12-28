@@ -95,7 +95,7 @@ CREATE TABLE `client` (
 
 LOCK TABLES `client` WRITE;
 /*!40000 ALTER TABLE `client` DISABLE KEYS */;
-INSERT INTO `client` VALUES (2,'AYOUB','ELKHADDOURI','0611567095','ELKHADDOURI@outlook.fr','ayoub'),(3,'olephina','olephina','124578965','olephina@gmail.com','123456'),(4,'Amine','amine','0611448899','amine@gmail.com','123456'),(5,'jrm','Pat','0754845585','patjrm@ayoub.kir','123456'),(9,'jrmk','Pati','0744845584','patjrmkir@ayoub.kir','123456'),(10,'hind','hind','0622446688','hind@gmail.com','123456');
+INSERT INTO `client` VALUES (3,'olephina','olephina','124578965','olephina@gmail.com','123456'),(4,'Amine','amine','0611448899','amine@gmail.com','123456'),(5,'jrm','Pat','0754845585','patjrm@ayoub.kir','123456'),(9,'jrmk','Pati','0744845584','patjrmkir@ayoub.kir','123456'),(10,'hind','hind','0622446688','hind@gmail.com','123456');
 /*!40000 ALTER TABLE `client` ENABLE KEYS */;
 UNLOCK TABLES;
 
