@@ -39,7 +39,7 @@ public class Dynamiqueservlet extends HttpServlet {
 		
 //		Connection con=CataloguelivreImpl.getconnection();
 		try {
-			Connection con = DriverManager.getConnection("jdbc:mariadb://localhost:3306/Books", "ayoub","ayoub hero");
+			Connection con = DriverManager.getConnection("jdbc:mariadb://localhost:3306/Books", "olphena","olphena");
 			String query="select path from Livre where nomcatalogue='programming'";
 			Statement pr=con.createStatement();
 			ResultSet re=pr.executeQuery( query );
